@@ -2,6 +2,7 @@ import kata1.bad.Animal;
 import kata1.good.concretes.Bird;
 import kata2.good.concretes.BasicPrinter;
 import kata3.good.concrates.Boat;
+import kata4.good.concretes.TemperatureSensor;
 
 
 public class Main {
@@ -21,5 +22,11 @@ public class Main {
         Boat boat = new Boat();
         boat.sail();
          */
+
+        /*KATA 4 GOOD
+        TemperatureSensor temperatureSensor = new TemperatureSensor();
+        double temperature = temperatureSensor.readTemperature();
+        System.out.println("temperature: " + temperature);
+        */
     }
 }
