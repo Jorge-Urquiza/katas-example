@@ -4,6 +4,7 @@ import kata2.good.concretes.BasicPrinter;
 import kata3.good.concrates.Boat;
 import kata4.good.concretes.TemperatureSensor;
 import kata5.good.concretes.SmartSpeaker;
+import kata6.good.concretes.PayPalProcessor;
 
 
 public class Main {
@@ -33,6 +34,11 @@ public class Main {
         /*KATA 5 GOOD
         SmartSpeaker smartSpeaker = new SmartSpeaker();
         smartSpeaker.connectToWiFi("FC3");
+        */
+
+        /*KATA 6 GOOD
+        PayPalProcessor payPalProcessor = new PayPalProcessor();
+        payPalProcessor.processPayPal("jorgetest@soe.com");
         */
 
     }
