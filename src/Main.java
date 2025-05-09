@@ -3,6 +3,7 @@ import kata1.good.concretes.Bird;
 import kata2.good.concretes.BasicPrinter;
 import kata3.good.concrates.Boat;
 import kata4.good.concretes.TemperatureSensor;
+import kata5.good.concretes.SmartSpeaker;
 
 
 public class Main {
@@ -28,5 +29,11 @@ public class Main {
         double temperature = temperatureSensor.readTemperature();
         System.out.println("temperature: " + temperature);
         */
+
+        /*KATA 5 GOOD
+        SmartSpeaker smartSpeaker = new SmartSpeaker();
+        smartSpeaker.connectToWiFi("FC3");
+        */
+
     }
 }
